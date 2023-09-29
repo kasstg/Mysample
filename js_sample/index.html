@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./index.js" defer> </script>
+    <style>
+        body{
+            font-family: sans-serif;
+            text-align: center;
+        }
+        input
+        {
+            display: block;
+            margin: auto;
+            margin-bottom: 15px; 
+        }
+    </style>
 </head>
 <body>
+    <h1>Calculator js</h1>
+    <input type="text" id="op1" placeholder="Operator1">
+    <input type="text" id="op2", placeholder="Operator2">
+    <input type="text" id="ops" placeholder="+, -, *, /">
+    <input type="submit" id="cal" value="calulate">
+
+    <p id="res"></p>
     
 </body>
 </html>
